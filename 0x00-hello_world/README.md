@@ -6,3 +6,4 @@ Compiles the c program and saves the output in cisfun
 prints the above line to the screen when executed
 Prints the above line to the screen when executed
 prints the size of any data type in bytes
+creates an assembly code from the CFILE
