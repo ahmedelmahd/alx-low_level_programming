@@ -1,1 +1,10 @@
-enerates the assembly code (Intel syntax) of a C code and save it in an output file.
+#!/bin/bash
+runs a c file through preprocessing and saves the output to c
+compiles but doesnt link headers in c file
+creates an assembly code
+creates an assembly code to the CFILE
+created a compiled c program named cisfun
+creates a new c file that prints a line of string when executed
+prints a string to the screen when prompted
+prints the size of any data type in bytes
+creates an assembly code
