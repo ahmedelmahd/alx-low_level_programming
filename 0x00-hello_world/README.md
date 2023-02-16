@@ -8,3 +8,4 @@ creates a new c file that prints a line of string when executed
 prints a string to the screen when prompted
 prints the size of any data type in bytes
 creates an assembly code
+prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
