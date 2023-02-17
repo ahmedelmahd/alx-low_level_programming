@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - iterates on each letter of alphabet and prints using putchar & while loop
+ * main - iterate each letter of alphabet and print using putchar & while
  *
  * Return: Always 0 ( Successful )
  */
