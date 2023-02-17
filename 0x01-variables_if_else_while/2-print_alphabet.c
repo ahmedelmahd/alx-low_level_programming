@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <math.h>
-
 /**
  * 
  * main - iterates on each letter of the alphabet and prints it using putchar and while loop
@@ -9,4 +7,12 @@
  */
 int main(void)
 {
-
+    char C = 'a';
+    while (C <= 'z')
+    {
+        putchar(C);
+        C++;
+    }
+    putchar('\n');
+    return 0;
+}
