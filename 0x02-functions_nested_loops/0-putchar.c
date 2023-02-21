@@ -10,7 +10,7 @@
 int main(void)
 {
 	char *c = "_putchar\n";
-	int file = 1; // printing to the variable file which is standard output
+	int file = 1; /* printing to the variable file which is standard output */
 	write (file, c, strlen(c));
 	return (0);
 }
