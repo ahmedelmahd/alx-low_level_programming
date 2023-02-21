@@ -4,14 +4,15 @@
  *
  * Return: Always 0 ( Successful )
  */
-void print_alphabet(void)
+void print_alphabets(void)
 {
-	char C = 'a';
+	char c = 'a';
+	int file = 1;
 
-	while (C <= 'z')
+	while (c <= 'z')
 	{
-		putchar(C);
-		C++;
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
 	return;
