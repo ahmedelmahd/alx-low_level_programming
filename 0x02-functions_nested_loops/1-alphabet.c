@@ -1,22 +1,17 @@
 #include "main.h"
 
-
 /**
- * main - Entry Point
+ * print_alphabet - prints alphabets from a to z
  *
- * Return: nothing as it takes void as data type
+ * Return: does not require return value
  */
-
 void print_alphabet(void)
-
 {
-
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
-	{		
+	{
 		_putchar(c);
 	}
 	_putchar('\n');
 }
-
