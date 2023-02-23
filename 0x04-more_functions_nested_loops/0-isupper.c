@@ -1,28 +1,20 @@
-#include <stdio.h>
-#include <ctype.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * _isupper - uppercase letters
+ * @c: char to check
  *
- * Return: Always 0 ( Successful )
+ * Return: 0 or 1
  */
-int main(void)
+
+int _isupper(int c)
 {
-	char char_input;
-
-	printf("Enter a character: ");
-	scanf("%c", &char_input);
-
-	if (isupper(char_input))
+	if (c >= 'A' && c <= 'Z')
 	{
-		printf("%c:", char_input);
-		printf("1\n");
+		return (1);
 	}
 	else
 	{
-		printf("%c:", char_input);
-		printf("0\n");
+		return (0);
 	}
-	return (0);
 }
-
