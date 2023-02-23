@@ -7,3 +7,4 @@ prints numbers from 0 to 9 except 2 and 4
 prints from 0 to 14 10 timesd
 prints '_' n number of times
 prints a backslash (n) number of times
+prints a square of size (size)
