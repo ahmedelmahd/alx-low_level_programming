@@ -8,3 +8,4 @@ prints from 0 to 14 10 timesd
 prints '_' n number of times
 prints a backslash (n) number of times
 prints a square of size (size)
+prints fizz for any multiplier of 3, buzz for any multiplier of 5, fizzbuzz for any multiplier of 15
