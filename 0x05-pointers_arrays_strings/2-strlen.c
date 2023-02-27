@@ -8,6 +8,12 @@
  */
 int _strlen(char *s)
 {
-	_putchar(sizeof(*s) - 1);
-	return (0);
+	int count;
+
+	count = 0;
+	while (*s++)
+	{
+		count++;
+	}
+	return (count);
 }
