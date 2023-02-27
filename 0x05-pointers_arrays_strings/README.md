@@ -6,3 +6,4 @@ prints a string to stdout
 prints a reversed string to stdout
 prints a reversed string
 prints every other char in the string
+prints the second half of a string of chars
