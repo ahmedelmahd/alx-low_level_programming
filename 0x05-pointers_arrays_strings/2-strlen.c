@@ -6,7 +6,7 @@
  *
  * Return: void
  */
-void int_strlen(char *s)
+int _strlen(char *s)
 {
 	_putchar(sizeof(*s) - 1);
 }
