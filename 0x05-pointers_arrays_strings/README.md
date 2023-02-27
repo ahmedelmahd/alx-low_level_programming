@@ -5,3 +5,4 @@ returns the length of the string 's'
 prints a string to stdout
 prints a reversed string to stdout
 prints a reversed string
+prints every other char in the string
