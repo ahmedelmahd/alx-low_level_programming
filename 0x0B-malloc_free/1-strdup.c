@@ -2,7 +2,8 @@
 #include <stddef.h>
 #include <stdlib.h>
 /**
- * _strdup - returns a pointer that contains a copy of a newly allocated memory address
+ * _strdup - returns a pointer that contains a copy
+ * of a newly allocated memory address
  * that has a string as a paramater
  * @str: the string provided as a parameter
  *
@@ -13,6 +14,7 @@ char *_strdup(char *str)
 	int length;
 	char *cp_str;
 	int i;
+
 	if (str == NULL)
 	{
 		return (NULL);
