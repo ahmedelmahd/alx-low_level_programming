@@ -3,7 +3,7 @@
 /**
  * init_dog - a function that creates a variable of type dog
  * struct dog - a structure that has 3 elements
- * @d: the name of the structure
+ * @d: a pointer to the structure
  * @name: name of the dog
  * @age: age of the dog
  * @owner: name of the dog's owner
