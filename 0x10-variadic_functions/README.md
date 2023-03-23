@@ -1,3 +1,5 @@
 #!/bin/bash
 
 A function that returns the sum of all of it's parameters of size n
+
+A function that prints numbers, separated by a comma, if available, and prints a newline at the end
