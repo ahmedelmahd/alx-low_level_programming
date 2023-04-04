@@ -9,3 +9,6 @@ a function that adds a new node to the end of the linked list
 a function that frees the linked list
 
 a function that deletes the head node of a linked list, and returns the head node’s data (n).
+
+a function that returns the nth node of the linked list
+
