@@ -12,3 +12,4 @@ a function that deletes the head node of a linked list, and returns the head nod
 
 a function that returns the nth node of the linked list
 
+a function that returns the sum of all the data (n) of a linked list.
