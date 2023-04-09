@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * flip_bits - a function that returns the number of flips needed to flip n to m
+ * flip_bits - a function that returns the number of flips needed to flip n > m
  * @n: the first number
  * @m: the second number
  * Return: the number of flips needed to flip
