@@ -14,7 +14,6 @@ int append_text_to_file(const char *filename, char *text_content)
 	{
 		return (-1);
 	}
-	fd = open(filename, O_APPEND | O_WRONLY);
 	if (text_content != NULL)
 	{
 		count = 0;
@@ -23,6 +22,7 @@ int append_text_to_file(const char *filename, char *text_content)
 			count++;
 		}
 	}
+	fd = open(filename, O_APPEND | O_WRONLY);
 	new_file = write(fd, text_content, count);
 	if (new_file == -1 || fd == -1)
 	{
