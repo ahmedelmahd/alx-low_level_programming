@@ -51,7 +51,7 @@ void close_file(int fd)
  * if file_to cannot be created  or written - exit(99)
  * if file_to or file_from cannot be closed - exit(100)
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int file_from, file_to, reading, writing;
 	char *buffer;
@@ -72,13 +72,12 @@ int main (int argc, char *argv[])
 	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	if (file_to == -1)
 	{
-		dprintf(STDERR_FILENO, "Eroor: can't write to %s\n", argv[2]);
+		dprintf(STDERR_FILENO, "Error: can't write to %s\n", argv[2]);
 		free(buffer);
 		close_file(file_from);
 		exit(99);
 	}
-	do
-	{
+	do {
 		reading = read(file_from, buffer, 1024);
 		if (reading == -1)
 		{
