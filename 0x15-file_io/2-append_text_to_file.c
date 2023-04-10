@@ -14,21 +14,26 @@ int append_text_to_file(const char *filename, char *text_content)
 	{
 		return (-1);
 	}
-	if (text_content != NULL)
-	{
-		count = 0;
-		while (text_content[count])
-		{
-			count++;
-		}
-	}
 	fd = open(filename, O_APPEND | O_WRONLY);
-	new_file = write(fd, text_content, count);
-	if (new_file == -1 || fd == -1)
+	if (fd == -1)
 	{
 		return (-1);
 	}
 
+	if (text_content != NULL)
+	{
+		count = 0;
+		while (text_content[count] != '\0')
+		{
+			count++;
+		}
+		new_file = write(fd, text_content, count);
+		if (new_file == -1)
+		{
+			close(fd);
+			return (-1);
+		}
+	}
 	close(fd);
 	return (1);
 }
