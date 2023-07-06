@@ -6,7 +6,7 @@
  * @index: the index on which we wanna change the bit value
  * Return: int
  */
-int set_bit(unsigned long int n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
 	if (index > 63)
 	{
