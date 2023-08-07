@@ -7,6 +7,7 @@
  * Return: the actual number of letters read and printed
  */
 ssize_t read_textfile(const char *filename, size_t letters)
+
 {
 	ssize_t actual_letters, written;
 	ssize_t file_pointer;
@@ -19,7 +20,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 	buffer = malloc(sizeof(char) * letters);
 	actual_letters = read(file_pointer, buffer, letters);
-	written = write(stdout, buffer, actual_letters);
+	written = write(STDOUT_FILENO, buffer, actual_letters);
 
 	free(buffer);
 	close(file_pointer);
